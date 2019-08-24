@@ -1,3 +1,4 @@
+=begin
 def find_element_index(array, value_to_find)
   array.length.times do |index|
     if array[index] == value_to_find
@@ -6,8 +7,8 @@ def find_element_index(array, value_to_find)
   end  
   nil #since value wasn't found. and nothing was found. this is returned.
 end
+=end
 
-=begin
 def find_element_index(array, value_to_find)
   index = 0
   while index < array.length do
@@ -17,7 +18,7 @@ def find_element_index(array, value_to_find)
     index +=1
   end
 end
-=end
+
 
 def find_max_value(array)
  max=0
